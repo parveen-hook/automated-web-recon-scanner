@@ -1,5 +1,2 @@
-1. requests
-2. colorama
-
-
-This two module require to run the script.
+requests
+colorama
