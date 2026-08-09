@@ -29,3 +29,17 @@ A modular Python-based Command Line Interface (CLI) security tool engineered to 
 ```bash
 git clone https://github.com/parveen-hook/automated-web-recon-scanner.git
 cd automated-web-recon-scanner
+```
+2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+3. Run Scan Commands
+# Basic Scan
+```
+python scanner.py -u http://example.com/page.php?id=1
+```
+# Scan with JSON Output Export
+```
+python scanner.py -u http://example.com/page.php?id=1 -o report.json
+```
