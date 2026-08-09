@@ -26,10 +26,6 @@ A modular Python-based Command Line Interface (CLI) security tool engineered to 
 ## Installation & Usage
 
 1. **Clone the Repository:**
-   ```bash
-   git clone [https://github.com/YOUR_GITHUB_USERNAME/automated-web-recon-scanner.git](https://github.com/YOUR_GITHUB_USERNAME/automated-web-recon-scanner.git)
-   cd automated-web-recon-scanner
-
-   pip install -r requirements.txt
-   python scanner.py -u [http://example.com/page.php?id=1](http://example.com/page.php?id=1)
-   python scanner.py -u [http://example.com/page.php?id=1](http://example.com/page.php?id=1) -o report.json
+```bash
+git clone https://github.com/parveen-hook/automated-web-recon-scanner.git
+cd automated-web-recon-scanner
